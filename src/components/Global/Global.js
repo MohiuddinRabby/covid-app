@@ -15,7 +15,6 @@ const Global = () => {
                 setGlobal(dataSlice)
             })
     }
-
     return (
         <div className="py-5">
             {
