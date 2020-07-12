@@ -10,7 +10,7 @@ const Global = () => {
         fetch('https://coronavirus-19-api.herokuapp.com/countries')
             .then(res => res.json())
             .then(data => {
-                const dataSlice = data.slice(0,1);
+                const dataSlice = data.slice(0, 1);
                 console.log(dataSlice)
                 setGlobal(dataSlice)
             })
@@ -19,7 +19,7 @@ const Global = () => {
     return (
         <div className="py-5">
             {
-                global.map(gdata=><GlobalData key={gdata.country} data = {gdata}></GlobalData>)
+                global.map(gdata => <GlobalData key={gdata.country} data={gdata}></GlobalData>)
             }
         </div>
     );

@@ -1,12 +1,19 @@
-.navbar {
+.header {
+  text-align: center;
+}
+nav{
     box-shadow: 2px 2px 2px #009966;
     opacity: 0.8;
     background: #ffffff;
 }
-.navbar ul li{
-    font-size: 20px;
+.header nav {
+  line-height: 50px;
+  font-size: 20px;
 }
-.navbar .nav-link{
-    color: #000;
-    font-weight: bold;
+.header nav span {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  padding: 5px;
+  border-bottom: none;
 }
