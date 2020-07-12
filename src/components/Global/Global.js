@@ -11,7 +11,6 @@ const Global = () => {
             .then(res => res.json())
             .then(data => {
                 const dataSlice = data.slice(0, 1);
-                console.log(dataSlice)
                 setGlobal(dataSlice)
             })
     }

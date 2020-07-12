@@ -6,7 +6,7 @@ const Country = () => {
     const [allCountry, setAllCountry] = useState([])
     useEffect(() => {
         const fetchData = async () => {
-            const result = await Axios(`https://coronavirus-19-api.herokuapp.com/countries/`)
+            const result = await Axios(`https://coronavirus-19-api.herokuapp.com/countries`)
             setAllCountry(result.data)
         }
         fetchData()

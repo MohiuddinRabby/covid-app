@@ -1,7 +1,7 @@
 import React from 'react';
 
 const CountryDataCard = ({ data }) => {
-    console.log(data)
+    // console.log(data)
     return (
         <section>
             <div className="card" style={{ color: '#001a33' }}>
