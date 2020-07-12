@@ -16,7 +16,7 @@ const App = () => {
       <Router>
         <Nav />
         <Switch>
-          <Route exact="" path="/" component={Global} />
+          <Route exact path="/" component={Global} />
           <Route path="/search/country" component={CountryData} />
           <Route path="/about" component={About} />
         </Switch>
